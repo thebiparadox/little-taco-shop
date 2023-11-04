@@ -1,1 +1,1 @@
-a website for the little taco shop made for gitdagray's HTML5 tutorial
+Little Taco Shop official website (made for gitdagray's HTML5 tutorial)
