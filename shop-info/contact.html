@@ -26,32 +26,34 @@
             </figure>
             <hr>
         </nav>
-        <article id="contact">
+        <section>
             <h2>Our Contact Form</h2>
                 <fieldset>
                     <legend>Send Us A Message</legend> 
                     <form action="https://httpbin.org/get" method="get"></form>
                         <p>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required autofocus>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="your name" required autofocus>
                         </p>
                         <p>
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" placeholder="your email" autocomplete="on" required>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="your email" required>
                         </p>
                             <label for="message">Your Message</label>
                             <br>
                             <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
                     </form>
                 </fieldset>
-                <button type="send" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
                 <button type="reset">Reset</button>
             <!--TODO: finish contact form-->
-        </article>
+        </section>
         <section>
             <h2>Our Location</h2>
-            <p><i>555 Taco Temptation Lane, Suite T</i></p>
-            <p><i>Kansas City, MO 55555</i></p>
+            <address> 
+                Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555
+            </address>
             <p>Phone: <a href="tel:555-555-5555">555-555-5555</a></p>
             <nav>
                 <a href="#the-top"><h5>Back to Top</h5></a>
